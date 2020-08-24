@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="21.801">
+<testcase classname="Projeto Aprendendo a Testar" name="Validar campos e botao Inserir e Apagar" time="13.482">
+<system-out><![CDATA[Dado que estou na tela inicial do site......................................passed
+Quando insiro "teste1", "123456", "rob" e clico em ENVIAR...................passed
+Entao apago o usuario "rob" inserido........................................passed
+E atualizo a pagina.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Projeto Aprendendo a Testar" name="Validar msg dos campos Usuario, Senha e Nome" time="2.462">
+<system-out><![CDATA[Dado que estou na tela inicial do site......................................passed
+Quando insiro "teste", "123senha", "" e clico em ENVIAR.....................passed
+Entao valido a mensagem "Existem campos em branco.".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Projeto Aprendendo a Testar" name="Validar msg dos campos Usuario, Senha e Nome 2" time="2.996">
+<system-out><![CDATA[Dado que estou na tela inicial do site......................................passed
+Quando insiro "teste", "", "rob" e clico em ENVIAR..........................passed
+Entao valido a mensagem ""..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Projeto Aprendendo a Testar" name="Validar msg dos campos Usuario, Senha e Nome 3" time="2.448">
+<system-out><![CDATA[Dado que estou na tela inicial do site......................................passed
+Quando insiro "", "123senha", "rob" e clico em ENVIAR.......................passed
+Entao valido a mensagem ""..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,433 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Acessar a tela de inicial e inserir um usuario",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-08-23T23:57:59.726Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7803019100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginStepDef.criaReportCenario()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Validar campos e botao Inserir e Apagar",
+        "description": "",
+        "id": "projeto-aprendendo-a-testar;validar-campos-e-botao-inserir-e-apagar;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 886626100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginStepDef.fecharReport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 484702900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "que estou na tela inicial do site",
+            "match": {
+              "location": "StepDefinitions.LoginStepDef.que_estou_na_tela_inicial_do_site()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1663551900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "insiro \"teste1\", \"123456\", \"rob\" e clico em ENVIAR",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"teste1\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"rob\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.LoginStepDef.insiro_usuario_senha_nome_e_clico_em_ENVIAR(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1555838900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "apago o usuario \"rob\" inserido",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rob\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitions.LoginStepDef.e_apago_o_usuario_inserido(java.lang.String)"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 987459400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "atualizo a pagina",
+            "match": {
+              "location": "StepDefinitions.LoginStepDef.e_atualizo_a_pagina()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Acessar a tela de inicial e inserir um usuario",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-08-23T23:58:13.236Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2992100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginStepDef.criaReportCenario()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Validar msg dos campos Usuario, Senha e Nome",
+        "description": "",
+        "id": "projeto-aprendendo-a-testar;validar-msg-dos-campos-usuario--senha-e-nome;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 178521300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginStepDef.fecharReport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 440821700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "que estou na tela inicial do site",
+            "match": {
+              "location": "StepDefinitions.LoginStepDef.que_estou_na_tela_inicial_do_site()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1423977400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "insiro \"teste\", \"123senha\", \"\" e clico em ENVIAR",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"teste\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"123senha\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinitions.LoginStepDef.insiro_usuario_senha_nome_e_clico_em_ENVIAR(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 407544900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "valido a mensagem \"Existem campos em branco.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Existem campos em branco.\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.LoginStepDef.entao_valido_a_mensagem(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Acessar a tela de inicial e inserir um usuario",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-08-23T23:58:15.703Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3010100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginStepDef.criaReportCenario()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Validar msg dos campos Usuario, Senha e Nome",
+        "description": "",
+        "id": "projeto-aprendendo-a-testar;validar-msg-dos-campos-usuario--senha-e-nome;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 211434900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginStepDef.fecharReport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 384782300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "que estou na tela inicial do site",
+            "match": {
+              "location": "StepDefinitions.LoginStepDef.que_estou_na_tela_inicial_do_site()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1933762400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "insiro \"teste\", \"\", \"rob\" e clico em ENVIAR",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"teste\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"rob\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.LoginStepDef.insiro_usuario_senha_nome_e_clico_em_ENVIAR(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 459912000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "valido a mensagem \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.LoginStepDef.entao_valido_a_mensagem(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Acessar a tela de inicial e inserir um usuario",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-08-23T23:58:18.704Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginStepDef.criaReportCenario()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Validar msg dos campos Usuario, Senha e Nome",
+        "description": "",
+        "id": "projeto-aprendendo-a-testar;validar-msg-dos-campos-usuario--senha-e-nome;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 154585800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginStepDef.fecharReport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 374885500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "que estou na tela inicial do site",
+            "match": {
+              "location": "StepDefinitions.LoginStepDef.que_estou_na_tela_inicial_do_site()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1517901600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "insiro \"\", \"123senha\", \"rob\" e clico em ENVIAR",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"123senha\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"rob\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinitions.LoginStepDef.insiro_usuario_senha_nome_e_clico_em_ENVIAR(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 397290400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "valido a mensagem \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.LoginStepDef.entao_valido_a_mensagem(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Projeto Aprendendo a Testar",
+    "description": "\tEU COMO detentor de conhecimentos de automa��o de testes.\n\tDESEJO acesso a uma p�gina para a automa��o de testes.\n\tPARA QUE seja poss�vel demonstrar e aprimorar meus conhecimentos com automa��o de testes.",
+    "id": "projeto-aprendendo-a-testar",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]

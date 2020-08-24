@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestRunners.InicioTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.356 sec <<< FAILURE! - in TestRunners.InicioTest
+initializationError(TestRunners.InicioTest)  Time elapsed: 0.013 sec  <<< ERROR!
+java.lang.IllegalArgumentException: path must exist: C:\Users\Qintess.CENW10N08721\eclipse-workspace\testeS\src\test\resources\Features
+
